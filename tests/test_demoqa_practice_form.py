@@ -23,7 +23,7 @@ def test_filling_form():
     practice_form.upload_picture('resources/wepk.jpeg')
 
     practice_form.select_state('NCR')
-    practice_form.select_city('Noida')
+    practice_form.select_city('Delhi')
 
     practice_form.submit()
 
@@ -39,5 +39,5 @@ def test_filling_form():
         'Reading',
         'wepk.jpeg',
         'Moscow',
-        'NCR Noida'
+        'NCR Delhi'
     )
